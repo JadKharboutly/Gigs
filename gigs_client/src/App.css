@@ -1,0 +1,12 @@
+* {
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  background-color: #f2e9e4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}

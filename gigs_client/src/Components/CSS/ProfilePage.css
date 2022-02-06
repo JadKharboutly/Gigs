@@ -1,0 +1,139 @@
+.ProfilePage {
+  height: 600px;
+  width: 530px;
+  background-color: #c9ada7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-summary {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.profile-summary-title {
+  font-family: "Poppins";
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.profile-summary-input {
+  width: 400px;
+  height: 100px;
+  border-radius: 15px;
+  padding: 0;
+  border: none;
+}
+
+.skills-title {
+  font-family: "Poppins";
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.skills-options {
+  width: 180px;
+  height: 35px;
+  background-color: #9a8c98;
+  color: white;
+  margin: 0;
+  cursor: pointer;
+}
+.skills-set {
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 10px;
+  padding: 0;
+  justify-content: flex-start;
+}
+.skills-input {
+  width: 400px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.personal-website-title {
+  font-family: "Poppins";
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.personal-website-input {
+  width: 400px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.save-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.save-button {
+  width: 200px;
+  font-family: "Poppins";
+  border: none;
+  border-radius: 100px;
+  padding: 8px;
+  background-color: #9a8c98;
+  cursor: pointer;
+}
+
+input {
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.skills-list {
+  padding-left: 20px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.skill {
+  background-color: rgb(150, 141, 141);
+  font-family: "Poppins";
+  font-size: 11px;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 3px;
+}
+p {
+  margin: 0;
+}
+
+.cancel-button {
+  border: none;
+  height: 17px;
+  width: 17px;
+  margin: 0;
+  background-color: rgb(150, 141, 141);
+  background-image: url("https://i.ibb.co/rcYb251/close-button-4.png");
+  cursor: pointer;
+}
